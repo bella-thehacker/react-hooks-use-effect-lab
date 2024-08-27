@@ -12,7 +12,7 @@ function App() {
     if (currentQuestionId < questions.length) {
       setCurrentQuestion((currentQuestionId) => currentQuestionId + 1);
     } else {
-      setCurrentQuestion(null);
+      setCurrentQuestion(null );
     }
     if (correct) {
       setScore((score) => score + 1);
